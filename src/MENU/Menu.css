@@ -1,0 +1,64 @@
+body{
+  background-color: rgba(37, 42, 46, 0.514);
+}
+
+.Menu{
+  width: 100%;
+  height: 100px;
+  color: rgb(8, 2, 0);
+  font-family: monospace;
+  background-image:url(https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Menu ul {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: rgb(243, 243, 7);
+  border-style: groove; 
+  border-radius: 15px;
+  margin-top: 0.3px;
+  border: 6px solid rgba(2, 255, 255, 0.753);
+}
+.buttn {
+  background-color: rgba(245, 219, 207, 0.801);
+  border: double;
+  color: rgb(3, 3, 3);
+  padding: 1px 2px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: rgb(3, 243, 243);
+  font-style: italic;
+  font-weight: bold;
+}
+.buttn:hover {
+  background-color: rgb(241, 168, 85);
+  transition: 0.6s ease;
+}
+
+.Menu h1 {
+  font-size: 1.66rem;
+  line-height: 1.95;
+  letter-spacing: 0.45rem;
+  text-align: center;
+  color: rgb(34, 19, 2);
+  margin-top: 20px;
+  border: 5px double;
+  border-radius: 40px;
+  margin-left: 4cm;
+  margin-right: 3cm;
+  border-color: rgb(250, 103, 5);
+  font-style: italic;
+  }
+  .Menu h3{
+    text-align: center;
+  }
+
+
+
+
+

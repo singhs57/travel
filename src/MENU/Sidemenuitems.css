@@ -1,0 +1,30 @@
+.sidelook{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.336)), 
+  url(https://img3.goodfon.com/wallpaper/nbig/1/bd/okean-otel-bora-bora.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  
+}
+.sidelook h2{
+  font-size: 1.96rem;
+  line-height: 1.95;
+  letter-spacing: 0.99rem;
+  color: rgba(248, 248, 4, 0.877);
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttn1{
+  background-color: rgba(12, 12, 12, 0.692);
+  
+  color: rgba(6, 253, 233, 0.938);
+  padding: 14px 19px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 121px;
+  margin-left: 15cm;
+  border-radius: 10px;
+}

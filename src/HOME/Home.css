@@ -1,0 +1,22 @@
+.Home{
+    width: 100%; height: 870px;
+    color: rgb(8, 8, 22);
+    padding: 78px 0px;
+    /* background-image: url(https://i.pinimg.com/originals/86/44/88/864488f84ba139aa5fdbae3980f0cd86.jpg); */
+    background-color: rgba(106, 114, 124, 0.733);
+  }
+.Home h1{
+  font-size: 1.5rem;
+  line-height: 2.95;
+  letter-spacing: 0.45rem;
+  text-align: center;
+  color: rgb(34, 19, 2);
+  margin-top: 30px;
+  border: double;
+  border-radius: 46px;
+  margin-left: 4cm;
+  margin-right: 3cm;
+  border-color: rgb(34, 34, 1);
+  font-style: italic;
+  }
+  

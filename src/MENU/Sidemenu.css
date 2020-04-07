@@ -1,0 +1,48 @@
+.icon{
+    float:right;
+    cursor: pointer;
+    color: rgb(3, 215, 243);
+    font-size: 22px;
+}
+.icon :hover{
+  color: rgb(252, 249, 246);
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    right: 0px;
+    z-index: 1;
+    background-color: rgba(32, 32, 5, 0.795);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: all 0.5s ;
+    margin-top: 100px;
+    border: 2px solid gray;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.sidenav a {
+text-decoration: none;
+font-size: 20px;
+color: rgba(248, 4, 4, 0.733);
+display: block;
+padding: 37px 0 30px 140px;
+}
+.sidenav :hover {
+    color: lightseagreen;
+}
+
+.closebtn{
+    position: absolute;
+    top: 42px;
+    right: 170px;
+    font-size: 20px;
+    /* background-color: white; */
+    color: aqua;
+    cursor: pointer;
+}

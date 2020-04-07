@@ -1,0 +1,9 @@
+.Contact{
+    width: 100%; height: 500px;
+    color: rgb(12, 9, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 78px 0px;
+    background-image: url(https://www.insauga.com/sites/default/files/article/2019/01/cover_1.jpg);
+}

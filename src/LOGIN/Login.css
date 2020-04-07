@@ -1,0 +1,106 @@
+.body{
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0,0,0,0.85)), 
+    url(https://www.singlestravelservice.com/wp-content/uploads/2016/02/2080-unique-air-travel-world-map-background-1030x685.jpg) ; */
+    background-position: center;
+    background-size: 50%;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+.form {
+    background-color: rgb(26, 252, 6);
+    width: 700px;
+    height: 450px;
+    margin: 7em auto;
+    border-radius: 2.5em;
+    box-shadow: 1px 2px 10px 5px rgba(236, 242, 243, 0.911);
+    background: url(https://www.rishabhsoft.com/wp-content/uploads/2017/10/Travel-GIF.gif);
+    background-position: 25%;
+}
+.sign {
+    padding-top: 20px;
+    color: rgb(104, 39, 76);
+    font-family: monospace;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.input {
+    text-align: center;
+      }
+
+  input[type=submit]:hover {
+    background:linear-gradient(90deg,#03a9f4, #f441a5, #ffeb3b, #03a9f4)
+  }
+  
+  input[type=text],input[type=password]{
+    width: 95%;
+    padding: 3px 20px;
+    margin: -1px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid rgb(15, 19, 0);     
+  }
+  input[type=submit]{
+    width: 28%;
+    padding: 2px 10px;
+    margin: 20px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 146, 4);
+    border-radius: 30px;
+    font-size: 21px;
+    background: linear-gradient(90deg,#03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  }
+  .btn {
+    background-color: rgb(245, 74, 51);
+    border: none;
+    color: rgba(240, 235, 235, 0.658);
+    padding: 2px 6px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: rgba(14, 15, 17, 0.493);
+  }
+  .font{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: red;
+      font-size: 14px;
+  }
+  .userfont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(46, 21, 1);
+    font-style: italic;  
+    font-weight: bold;
+    font-size: 15px;
+     
+}
+  .iconkey{
+  padding: 1px 0px;
+    position: absolute;
+    top: 431px;
+    right: 646px;
+    color: rgb(59, 11, 38);
+  }
+  .iconuser{
+    padding: 1px 0px;
+    position: absolute;
+    top: 431px;
+    right: 995px;
+    color: rgb(59, 11, 38);
+  }
+  .eye{
+    padding: 1px 0px;
+    position: absolute;
+    top: 431px;
+    left: 995px;
+    color: rgba(33, 2, 36, 0.911);
+  }
+  .eye:hover {
+    background-color: rgba(253, 228, 5, 0.589);
+  }
+
+

@@ -1,0 +1,9 @@
+.App{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0,0,0,0.85)), 
+    url(https://www.singlestravelservice.com/wp-content/uploads/2016/02/2080-unique-air-travel-world-map-background-1030x685.jpg) ;
+    background-position: center;
+    background-size: 40%;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 1px;
+    } 
