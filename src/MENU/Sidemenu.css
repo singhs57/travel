@@ -1,8 +1,9 @@
 .icon{
-    float:right;
+    float: right;
     cursor: pointer;
     color: rgb(4, 253, 220);
     font-size: 25px;
+    margin: 20px;
 }
 .icon :hover{
   color: rgb(252, 152, 4);
@@ -11,13 +12,11 @@
 .sidenav{
     height: 100%;
     width: 0;
-    /* position: fixed; */
     position: fixed;
     top: 0;
-    /* left: 0; */
     right: 0px;
     z-index: 1;
-    background-color: rgba(32, 32, 5, 0.795);
+    background-color: rgba(32, 32, 5, 0.836);
     overflow-x: hidden;
     padding-top: 60px;
     transition: all 0.5s ;
