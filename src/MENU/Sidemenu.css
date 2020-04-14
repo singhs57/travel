@@ -1,11 +1,11 @@
 .icon{
     float:right;
     cursor: pointer;
-    color: rgb(3, 215, 243);
-    font-size: 22px;
+    color: rgb(4, 253, 220);
+    font-size: 25px;
 }
 .icon :hover{
-  color: rgb(252, 249, 246);
+  color: rgb(252, 152, 4);
 }
 
 .sidenav{

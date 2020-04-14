@@ -1,30 +1,38 @@
 .sidelook{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.329),rgba(0, 0, 0, 0.336)), 
-  url(https://img3.goodfon.com/wallpaper/nbig/1/bd/okean-otel-bora-bora.jpg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.438)), 
+  url(https://3.bp.blogspot.com/-HGtngfGeCTY/UvSiBNFBVPI/AAAAAAAAAds/euXU7fHMmXo/s1600/Paradise_Island_Wallpaper.jpg) ;
+  background-size: 100% 100%;
   width: 100%;
-  height: 600px;
-  
+  height: 670px;  
 }
 .sidelook h2{
-  font-size: 1.96rem;
+  font-size: 2.56rem;
   line-height: 1.95;
-  letter-spacing: 0.99rem;
-  color: rgba(248, 248, 4, 0.877);
+  letter-spacing: 1.06rem;
+  color: rgb(250, 249, 249);
   margin-top: 20px;
   text-align: center;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  padding-top: 5cm;
+  font-weight: bold;
+}
+.sidelook p{
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: rgb(112, 22, 0);
+  font-size: 19px;
 }
 .buttn1{
-  background-color: rgba(12, 12, 12, 0.692);
-  
-  color: rgba(6, 253, 233, 0.938);
-  padding: 14px 19px;
-  font-size: 25px;
+  background-color: rgb(77, 73, 73);  
+  color: rgba(249, 250, 250, 0.938);
+  padding: 5px 6px;
+  font-size: 21px;
   cursor: pointer;
-  margin-top: 121px;
-  margin-left: 15cm;
+  margin-top: 3px;
+  margin-left: 16cm;
   border-radius: 10px;
+}
+.buttn1:hover{
+background-color: black;
 }

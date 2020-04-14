@@ -7,7 +7,6 @@ import Home from './HOME/Home';
 import About from './ABOUT/About';
 import Contact from './CONTACT/Contact';
 import Logout from './LOGOUT/Logout';
-// import Register from './MENU/Register';
 
 
 class App extends React.Component{  
@@ -20,7 +19,6 @@ class App extends React.Component{
       <BrowserRouter>
       <Switch>
       <Route path="/" exact component={Menu} />
-      {/* <Route path="/Register" component={Register} />   */}
       <Route path="/Login" component={Login} />
       <Route path="/Logout" component={Logout} />
       <Route path="/Home" component={Home} />

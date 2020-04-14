@@ -1,6 +1,6 @@
-body{
-  background-color: rgba(37, 42, 46, 0.514);
-}
+.body{
+  background-color: rgba(51, 48, 48, 0.616);
+} 
 
 .Menu{
   width: 100%;
@@ -18,12 +18,10 @@ body{
   align-items: center;
   list-style: none;
   color: rgb(243, 243, 7);
-  border-style: groove; 
   border-radius: 15px;
   margin-top: 0.3px;
-  border: 6px solid rgba(2, 255, 255, 0.753);
 }
-.buttn {
+ /* .buttn {
   background-color: rgba(245, 219, 207, 0.801);
   border: double;
   color: rgb(3, 3, 3);
@@ -38,25 +36,26 @@ body{
 .buttn:hover {
   background-color: rgb(241, 168, 85);
   transition: 0.6s ease;
-}
+} */
 
 .Menu h1 {
   font-size: 1.66rem;
   line-height: 1.95;
   letter-spacing: 0.45rem;
   text-align: center;
-  color: rgb(34, 19, 2);
+  color: rgb(0, 17, 43);
   margin-top: 20px;
   border: 5px double;
   border-radius: 40px;
   margin-left: 4cm;
   margin-right: 3cm;
-  border-color: rgb(250, 103, 5);
+  border-color: rgba(10, 10, 9, 0.705);
   font-style: italic;
   }
   .Menu h3{
     text-align: center;
-  }
+    font-size: 20px;
+  } 
 
 
 

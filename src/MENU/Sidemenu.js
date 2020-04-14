@@ -6,12 +6,9 @@ import { faBars,faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 // import { Link } from "react-router-dom";
 
 function Sidemenu(){
-    // const [open, setOpen] = React.useState(false);
-
     const openNav = () => {
         document.getElementById('mySidenav').style.width='250px';
-        // setOpen(true);
-      };
+         };
     
     const closeNav = () => {
         document.getElementById('mySidenav').style.width='0px';
