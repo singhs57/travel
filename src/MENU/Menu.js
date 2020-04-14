@@ -27,8 +27,7 @@ function Menu() {
             </nav>
         <nav className='Menu'>    
         <Sidemenu/>     
-        <ul>      
-          
+        <ul>               
         {/* <FontAwesomeIcon icon={faSearch} InputBase placeholder='search…' className='buttn'  /> */}
         <li><Link to = "/Home"><button className='buttn' title='Home'> Home </button> </Link></li>
         <li> <Link to = "/About"> <button className='buttn' title='Videos'> About</button> </Link>  </li>  
