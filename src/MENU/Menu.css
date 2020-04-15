@@ -1,6 +1,4 @@
-.body{
-  background-color: rgba(51, 48, 48, 0.616);
-} 
+
 /*
 .Menu{
   width: 100%;
@@ -24,29 +22,18 @@
   margin-top: 0.3px;
   
 } */
- /* .buttn {
-  background-color: rgba(245, 219, 207, 0.801);
-  border: double;
-  color: rgb(3, 3, 3);
-  padding: 1px 2px;
-  font-size: 17px;
-  cursor: pointer;
-  border-radius: 6px;
-  border-color: rgb(3, 243, 243);
-  font-style: italic;
-  font-weight: bold;
-}
-.buttn:hover {
-  background-color: rgb(241, 168, 85);
-  transition: 0.6s ease;
-} */
+
 .logo{
     width: 100%;
-    height: 60px;
-    background-color: rgba(2, 2, 2, 0.445);
-    background-image: url(https://www.netclipart.com/pp/m/347-3474772_tour-and-travel-logo-png.png);
-    background-repeat: no-repeat;
-    background-size: 10% 123%;
+    height: 45px;
+    background-color: rgba(2, 2, 2, 0.61); 
+}
+.logo span{
+  padding-left: 50px;
+  line-height: 40px;
+  color: aliceblue;
+  font-weight: 400;
+  cursor: pointer;
 }
 /* .logo ul{
   display: flex;
@@ -57,25 +44,32 @@
 .Menu{
   width: 100%;
   height: 70px;
-  background: rgba(0, 0, 0, 0.911);
-  border-top: 1px solid rgb(195, 0, 255);
+  background: rgba(0, 0, 0, 0.815);
+  border: 1px solid rgb(195, 0, 255);
   position: sticky;
   top: 0;
+  background-image: url(https://www.netclipart.com/pp/m/347-3474772_tour-and-travel-logo-png.png);
+  background-repeat: no-repeat;
+  background-size: 10% 123%;
+  background-position-x: 45px;
+  
 }
 .Menu ul{
   display: flex;
   margin: 0px;
   padding: 20px 100px;
   float: right;  
+  
 }
 .Menu ul li{
   list-style: none;
   display: block;
   color: rgba(1, 253, 253, 0.767);
-  padding: 0 20px;
+  padding: 3px 20px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;  
+  cursor: pointer;
 }
 .Menu ul li :hover{
   color: coral;
@@ -87,7 +81,7 @@
   letter-spacing: 0.45rem;
   text-align: center;
   color: rgb(0, 17, 43);
-  margin-top: 30px;
+  margin-top: 20px;
   border: 5px double;
   border-radius: 40px;
   margin-left: 4cm;

@@ -20,10 +20,10 @@
     overflow-x: hidden;
     padding-top: 60px;
     transition: all 0.5s ;
-    margin-top: 88px;
+    margin-top: 130px;
     border: 2px solid gray;
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .sidenav a {
 text-decoration: none;
