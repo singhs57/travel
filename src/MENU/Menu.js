@@ -16,7 +16,7 @@ import Scrollup from './Scrollup';
 function Menu() {
     
     return (
-        <div>
+        <div >
             <nav className='logo'>
             <span><FontAwesomeIcon icon={faPhoneAlt}/>  +91-7979070712 & +91-8092290510</span>
             <span><FontAwesomeIcon icon={faEnvelope}/>  57shubhamkrsingh@gmail.com</span>
