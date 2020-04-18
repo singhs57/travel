@@ -43,30 +43,6 @@ const Slideshow = () => {
         <div style={{'backgroundImage': `url(${slideImages[4]})`}} className='imge'>
               <span>“Life with limited lifespan”</span>
             </div>      
-            
-            {/* <div className='img'>
-            <div>
-                <img src={img1} alt='img1'/>
-            </div>
-            </div>
-
-            <div className='img'>
-            <div>
-                <img src={img2} alt='img2'/>
-            </div>
-            </div>
-
-            <div className='img'>
-            <div>
-                <img src={img5} alt='img5'/>
-            </div>
-            </div>
-
-            <div className='img'>
-            <div>
-                <img src={img4} alt='img4'/>
-            </div>
-            </div> */}
         </Slide>
 
     </div>
