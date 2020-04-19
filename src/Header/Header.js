@@ -24,13 +24,17 @@ const Header = (props) => {
         <header>
             
             <nav className='header'>
+                
             <div className='social'>               
         <ul>
-            <li><a href='/Home'><FontAwesomeIcon icon={faFacebook} title='Facebook'/></a></li>  
-            <li><a href='/Home'><FontAwesomeIcon icon={faYoutube} title='Youtube'/></a></li>
-            <li><a href='/Home'><FontAwesomeIcon icon={faTwitterSquare} title='Twitter'/></a></li>
-            <li><a href='/Home'><FontAwesomeIcon icon={faGooglePlus} title='Google Plus'/></a></li>
-            <li><a href='/Home'><FontAwesomeIcon icon={faLinkedinIn} title='LinkedIn'/></a></li>
+                <div>
+                    <h1>TRAVELS4U</h1>
+                </div>
+            <li><a href='/About'><FontAwesomeIcon icon={faFacebook} title='Facebook'/></a></li>  
+            <li><a href='/About'><FontAwesomeIcon icon={faYoutube} title='Youtube'/></a></li>
+            <li><a href='/About'><FontAwesomeIcon icon={faTwitterSquare} title='Twitter'/></a></li>
+            <li><a href='/About'><FontAwesomeIcon icon={faGooglePlus} title='Google Plus'/></a></li>
+            <li><a href='/About'><FontAwesomeIcon icon={faLinkedinIn} title='LinkedIn'/></a></li>
         </ul>
         </div>
             </nav>

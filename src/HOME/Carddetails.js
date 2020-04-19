@@ -25,8 +25,7 @@ class Carddetails extends React.Component{
                         <h3>Beauty of Nature</h3>
                         <p>
                         Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        They love to run around in big, open spaces, have a natural love of bringing 
-                        things back, and learn to retrieve easily.
+                        
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -48,8 +47,7 @@ class Carddetails extends React.Component{
                         <h3>Beauty of Nature</h3>
                         <p>
                         Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        They love to run around in big, open spaces, have a natural love of bringing 
-                        things back, and learn to retrieve easily.
+                        
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -73,8 +71,6 @@ class Carddetails extends React.Component{
                         <h3>Beauty of Nature</h3>
                         <p>
                         Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        They love to run around in big, open spaces, have a natural love of bringing 
-                        things back, and learn to retrieve easily.
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -98,8 +94,6 @@ class Carddetails extends React.Component{
                         <h3>Beauty of Nature</h3>
                         <p>
                         Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        They love to run around in big, open spaces, have a natural love of bringing 
-                        things back, and learn to retrieve easily.
                         </p>
                     </CardContent>
                     <CardActionArea>

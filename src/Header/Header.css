@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    position: relative;
+    /* position: relative; */
     /* font-family: Arial; */
   }
   .header{
@@ -9,16 +9,16 @@ body {
     background: rgba(0, 0, 0, 0.39);
     overflow: auto;
     margin: 12px auto;
-    border-radius: 5px;  
-     
+    border-radius: 5px; 
+    position: sticky;
+    top: 0;      
   }
   .header ul{
     margin: 0;
     padding: 0;
     list-style: none;
     line-height: 60px;   
-    position: sticky;
-    top: 0; 
+    
   }
   .header ul li{
     float: left;
@@ -35,7 +35,7 @@ body {
     font-family: Comic Sans MS, Comic Sans, cursive;
   }
   .header ul li a.active{
-    background: rgb(0, 183, 255);
+    background: rgb(20, 95, 124);
     color: #fff;
     transition: 1.0s;
   }
@@ -60,6 +60,19 @@ body {
       transition: 0.8s;
       color: rgb(0, 174, 255);
       font-size: 22px;
+    }
+    .header ul div h1{
+    text-align: center;
+    font-size: 35px;
+    margin-left: 600px;
+    margin-right: -100px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    }
+    .header ul div h1:hover{
+      transition: 0.8s;
+      color: rgb(0, 174, 255);
+      font-size: 38px;
     }
     .header ul div{
       float: right;
@@ -118,6 +131,12 @@ body {
       text-align: center;
       border-top: 1px solid #fff;
       float: left;
+    }
+    .header ul div h1{
+      text-align: center;
+    font-size: 25px;
+    margin-left: -100px;
+    display: inline;
     }
      
    } 

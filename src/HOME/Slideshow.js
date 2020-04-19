@@ -46,35 +46,50 @@ const Slideshow = () => {
       <div className='slide slide1'>
         <div className='caption'>
           <h2>“People don't take trips,trips take people.”</h2>
-          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4]</p>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet
+            [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
+            Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
+            punctuation, and space.</p>
         </div>
         </div>
 
       <div className='slide slide2'>
         <div className='caption'>
           <h2>"Don't Quit Your Day Dream."</h2>
-          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet
+            [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
+            Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
+            punctuation, and space.</p>
         </div>
       </div>
 
       <div className='slide slide3'>
         <div className='caption'>
           <h2>“LIFE IS EITHER A DARING ADVENTURE OR NOTHING AT ALL”</h2>
-          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet
+            [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
+            Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
+            punctuation, and space.</p>
         </div>
       </div>
 
       <div className='slide slide4'>
         <div className='caption'>
           <h2>“TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS”</h2>
-          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet
+            [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
+            Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
+            punctuation, and space.</p>
         </div>
       </div>
 
       <div className='slide slide5'>
         <div className='caption'>
           <h2>“Life with limited lifespan”</h2>
-          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4]</p>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet
+            [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
+            Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
+            punctuation, and space.</p>
         </div>
       </div>
 
