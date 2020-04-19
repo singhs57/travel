@@ -1,39 +1,115 @@
-.sidelook{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.438)), 
-  url(https://3.bp.blogspot.com/-HGtngfGeCTY/UvSiBNFBVPI/AAAAAAAAAds/euXU7fHMmXo/s1600/Paradise_Island_Wallpaper.jpg) ;
-  background-size: 100% 100%;
-  width: 100%;
-  height: 670px;  
-  /* clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%,0 0); */
+body{
+  margin: 0;
+  padding: 0;
+  background: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+
 }
-.sidelook h2{
-  font-size: 2.56rem;
-  line-height: 1.95;
-  letter-spacing: 1.06rem;
-  color: rgb(250, 249, 249);
-  margin-top: 20px;
-  text-align: center;
-  font-style: italic;
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  padding-top: 5cm;
-  font-weight: bold;
+.container1{
+  position: relative;
+  width: 1280px;
+  height: 500px;
+  margin: 20px auto 0;
+  
 }
-.sidelook p{
-  text-align: center;
-  font-family: Comic Sans MS, Comic Sans, cursive;
-  color: rgb(112, 22, 0);
-  font-size: 19px;
-}
-.buttn1{
-  background-color: rgb(77, 73, 73);  
-  color: rgba(249, 250, 250, 0.938);
-  padding: 5px 6px;
-  font-size: 21px;
-  cursor: pointer;
-  margin-top: 3px;
-  margin-left: 16cm;
-  border-radius: 10px;
-}
-.buttn1:hover{
-background-color: black;
-}
+.container1 .box{
+  position: relative;
+  width: 405px;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.466);
+  float: left;
+  margin: 10px;
+  box-sizing: border-box; 
+  overflow: hidden;
+  box-shadow: 1px 2px 10px 5px rgba(29, 0, 0, 0.699);
+  }
+  .container1 .box .imgBox{
+    background-size: cover;
+    width: 100%;
+  }
+  .container1 .box:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transform: scaleX(0);
+    opacity: 0;
+    z-index: 1;
+  }
+  .container1 .box:hover:before{
+    transform: scaleX(1);
+  }
+  .container1 .box:after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    transition: 0.9s;
+    transform: scaleY(0);
+    opacity: 0;
+    z-index: 1;
+  }
+  .container1 .box:hover:after{
+    transform: scaleY(1);
+  }
+  .container1 .box .imgBox{
+    position: relative;
+    
+  }
+  .container1 .box .imgBox img{
+    transition: 0.5s;
+  }
+  .container1 .box:hover .imgBox img{
+    opacity: 0.9;
+    transform: scale(1.2);
+  }
+  .container1 .box .content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .container1 .box .content h2{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 2, 24);
+    transition: 0.5s;
+    transform: translateY(-50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .container1 .box .content p{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    transform: translateY(50%);
+    opacity: 0;
+    visibility: hidden;
+    
+  }
+  .container1 .box:hover .content h2,
+  .container1 .box:hover .content p
+  {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+    font-weight: bold;
+  }
+  

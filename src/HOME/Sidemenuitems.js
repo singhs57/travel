@@ -5,19 +5,73 @@ import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faRulerHorizontal} from '@fortawesome/free-solid-svg-icons'
 
-class Sidemenuitems extends React.Component {
+
+const Sidemenuitems=()=> {
     
-render(){
-    return(
-        <div className='sidelook'>
-           <h2> UPGRADE YOUR WEEKENDS </h2>
-           <p>Enjoy secret offers up to 70% off the best luxury hotels every Sunday.</p>
-            <br /><br/><br/><br/><br/>
-            <Link to = "/Login"> <button className='buttn1' title='Register Here'> Register Here</button></Link>
-            <br/><br/>
-            <p>Discover the experience</p>
+return(
+        <div className='container1'>
+            <div className='box'>
+                <div className='imgBox'>
+                <img src={require('./image1.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
+                </div>
+            </div>
+
+             <div className='box'>
+            <div className='imgBox'>
+            <img src={require('./image2.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
+                </div>
+            </div>
+
+            <div className='box'>
+            <div className='imgBox'>
+            <img src={require('./image3.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
+                </div>
+            </div>
+
+            <div className='box'>
+            <div className='imgBox'>
+            <img src={require('./image4.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p> 
+                </div>
+            </div>
+
+            <div className='box'>
+            <div className='imgBox'>
+            <img src={require('./image5.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
+                </div>
+            </div>
+
+            <div className='box'>
+            <div className='imgBox'>
+            <img src={require('./image6.jpeg')} alt='Img'/>
+                </div>
+                <div className='content'>
+                       <h2>Image Hover Effect</h2>
+                       <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
+                </div>
+            </div>  
+
         </div> 
     );
 }
-}
+
 export default Sidemenuitems;

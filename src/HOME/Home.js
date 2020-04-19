@@ -19,10 +19,11 @@ function Home() {
     return (
         <div>
         {/* <Sidemenu/>  */}
-        <h1 className='h1'>“Live with no excuses and travel with no regrets”</h1>
+        {/* <h1>“Live with no excuses and travel with no regrets”</h1> */}
         <Sidemenuitems/>
+        <br /><br />
         <Slideshow/>  
-            <br /><br /><br />
+            <br /><br />
         <Carddetails/>
         <br /><br />
         <Scrollup/>

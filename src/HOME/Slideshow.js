@@ -7,45 +7,80 @@ import { Slide } from 'react-slideshow-image';
 import './Slideshow.css';
 
 
-const slideImages = [
-    'https://images-na.ssl-images-amazon.com/images/I/61zB3h2Z7ZL._AC_SX466_.jpg',
-    'https://images6.alphacoders.com/685/685218.jpg',
-    'https://friendlystock.com/wp-content/uploads/2018/08/7-tropical-beach-with-serene-waters-background-cartoon-clipart.jpg',
-    'https://media.istockphoto.com/illustrations/beautiful-tropical-sunset-night-sky-sea-landscape-wallpaper-design-illustration-id1069674106?k=6&m=1069674106&s=170667a&w=0&h=D_hoRi4dqZra2tDIm72hMHdI-JiB5-p4NOV3kED21cw=',
-    'https://www.glamvel.com/wp-content/uploads/2017/01/desert-safari-dubai-quote.jpg'
-  ];
 
-const properties = {
-  duration: 5000,
-  transitionDuration: 700,
-  infinite: true,
-  indicators: true,
-  arrows: true
-}
+
+// const properties = {
+//   duration: 5000,
+//   transitionDuration: 700,
+//   infinite: true,
+//   indicators: true,
+//   arrows: true
+// }
 
 const Slideshow = () => {
     return (
-    <div className='slide'>
-        <Slide {...properties} >
+    // <div className='slide'>
+    //     <Slide {...properties} >
         
-        <div style={{'backgroundImage': `url(${slideImages[0]})`}} className='imge'>
-              <span>“People don't take trips, trips take people.”</span>
-            </div>
-        <div style={{'backgroundImage': `url(${slideImages[1]})`}} className='imge'>
-              <span>"Don't Quit Your Day Dream."</span>
-            </div>
-        <div style={{'backgroundImage': `url(${slideImages[2]})`}} className='imge'>
-              <span>“LIFE IS EITHER A DARING ADVENTURE OR NOTHING AT ALL”</span>
-            </div>    
-        <div style={{'backgroundImage': `url(${slideImages[3]})`}} className='imge'>
-              <span>“TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS”</span>
-            </div>    
-        <div style={{'backgroundImage': `url(${slideImages[4]})`}} className='imge'>
-              <span>“Life with limited lifespan”</span>
-            </div>      
-        </Slide>
+    //     <div style={{'backgroundImage': `url(${slideImages[0]})`}} className='imge'>
+    //                </div>
+    //     <div style={{'backgroundImage': `url(${slideImages[1]})`}} className='imge'>
+    //           <span></span>
+    //         </div>
+    //     <div style={{'backgroundImage': `url(${slideImages[2]})`}} className='imge'>
+    //           <span></span>
+    //         </div>    
+    //     <div style={{'backgroundImage': `url(${slideImages[3]})`}} className='imge'>
+    //           <span></span>
+    //         </div>    
+    //     <div style={{'backgroundImage': `url(${slideImages[4]})`}} className='imge'>
+    //           <span></span>
+    //         </div>      
+    //     </Slide>
 
+    // </div>
+    
+    <div className='container'>
+      
+      <div className='slider' >
+      <div className='slide slide1'>
+        <div className='caption'>
+          <h2>“People don't take trips,trips take people.”</h2>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4]</p>
+        </div>
+        </div>
+
+      <div className='slide slide2'>
+        <div className='caption'>
+          <h2>"Don't Quit Your Day Dream."</h2>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+        </div>
+      </div>
+
+      <div className='slide slide3'>
+        <div className='caption'>
+          <h2>“LIFE IS EITHER A DARING ADVENTURE OR NOTHING AT ALL”</h2>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+        </div>
+      </div>
+
+      <div className='slide slide4'>
+        <div className='caption'>
+          <h2>“TAKE ONLY MEMORIES, LEAVE ONLY FOOTPRINTS”</h2>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4] </p>
+        </div>
+      </div>
+
+      <div className='slide slide5'>
+        <div className='caption'>
+          <h2>“Life with limited lifespan”</h2>
+          <p>The University of Hawaii began using radio to send digital information as early as 1971, using ALOHAnet.[citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, punctuation, and space. Almost every time, the messages contained fewer than 160 characters, thus giving the basis for the limit one could type via text messaging.[4]</p>
+        </div>
+      </div>
+
+      </div>      
     </div>
+    
     )
 }
 export default Slideshow;

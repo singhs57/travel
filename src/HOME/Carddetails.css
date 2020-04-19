@@ -32,8 +32,9 @@
 }
 .card {
   
-  padding: 16px;
-  text-align: center;  
+  padding: 10px;
+  text-align: center;
+  max-height: 480px;  
 }
 .header1{
 background-image: url(https://wallpapercave.com/wp/Lzqbhii.jpg);
