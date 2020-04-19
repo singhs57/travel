@@ -43,7 +43,7 @@ const Header = (props) => {
         <FontAwesomeIcon className='awesomeIcon' icon={faSearch} onClick={openSearch}/>
         </form>
         </div>              
-        <li><a href = "/Home" className='active'> Home</a></li>
+        <li><a href = "/" className='active'> Home</a></li>
         <li> <a href = "/About"> About</a></li>  
         <li><a href = "/Contact">Contact</a></li>
         <li><a href = "/Contact"> Gallery</a></li>
