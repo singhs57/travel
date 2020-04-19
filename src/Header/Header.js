@@ -8,8 +8,6 @@ import {faPhoneAlt, faEnvelope, faSearch} from '@fortawesome/free-solid-svg-icon
 const Header = (props) => {
     
     const[search,setSearch]=useState(false);
-
-    // const[searchNav,setSearchNav]=useState(false);
     
     const submitSearch = (e)=>{
         e.preventDefault();
@@ -18,13 +16,8 @@ const Header = (props) => {
 
     const openSearch=()=>{
         setSearch(true);
+        alert('Submit Successfully');
     }  
-
-    // const openNav=()=>{
-    //     setSearchNav(true);
-    // }
-    
-    // const searchHeader=searchNav?'header ul li': 'toggle-nav'
     
     const searchClass=search?'searchInput active': 'searchInput'
     return(
@@ -42,7 +35,7 @@ const Header = (props) => {
         </div>
             </nav>
             <nav className='header'>
-            <a href='#' className='toggle-nav'>&#9776;</a>    
+            <button className='toggle-nav'>&#9776;</button>    
         <ul>  
         <div>
         <form onSubmit={submitSearch}>

@@ -18,10 +18,9 @@ class App extends React.Component{
       <div>
         <Header/>
       </div>
-      
       <BrowserRouter>
       <Switch>
-      <Route path="/Home" exact component={Home} />
+      <Route path="/" exact component={Home} />
       <Route path="/Login" component={Login} />
       <Route path="/Logout" component={Logout} />
       <Route path="/About" component={About} />
@@ -29,8 +28,7 @@ class App extends React.Component{
       </Switch>
       </BrowserRouter>         
     </div>
-    
-  );
+    );
   }
 };
 
