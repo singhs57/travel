@@ -19,9 +19,9 @@ export default function AlertDialog() {
 
   return (
     <div>
-      <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+      <button variant="outlined" color="primary" onClick={handleClickOpen}>
         Learn More
-      </Button>
+        </button>
       <Dialog
         open={open}
         onClose={handleClose}
@@ -35,12 +35,12 @@ export default function AlertDialog() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose} color="primary">
+          <button onClick={handleClose} color="primary">
             Disagree
-          </Button>
-          <Button onClick={handleClose} color="primary" autoFocus>
+          </button>
+          <button onClick={handleClose} color="primary" autoFocus>
             Agree
-          </Button>
+          </button>
         </DialogActions>
       </Dialog>
     </div>

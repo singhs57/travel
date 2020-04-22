@@ -1,15 +1,21 @@
 import React from 'react';
 // import Button from '@material-ui/core/Button';
-import './Sidemenuitems.css';
+import './Popularpackages.css';
 import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import {faRulerHorizontal} from '@fortawesome/free-solid-svg-icons'
 
 
-const Sidemenuitems=()=> {
+const Popularpackages=()=> {
     
 return(
-        <div className='container1'>
+    <div>
+    <div>
+            <h1>Most Popular Packages</h1>
+            <p>Wondering where to go for your next holidays?</p> 
+            <p> Has sitting at home rummaging through the internet for the best holiday destinations...</p>
+    </div>
+        <div className='container1'>            
             <div className='box'>
                 <div className='imgBox'>
                 <img src={require('./image1.jpeg')} alt='Img'/>
@@ -80,7 +86,8 @@ return(
             </div>  
 
         </div> 
+        </div>
     );
 }
 
-export default Sidemenuitems;
+export default Popularpackages;

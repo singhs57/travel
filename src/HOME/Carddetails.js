@@ -15,6 +15,10 @@ import { faBookmark, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 class Carddetails extends React.Component{
     render(){
         return(
+            <div>
+                <h1>Popular Destination</h1>
+            <p>TRAVELS4U brings you the best opportunity to enjoy holiday at 
+                different destinations across the world.</p>
             <div className='row'>
             <div className='column'>
             <Card className='card'>            
@@ -46,8 +50,7 @@ class Carddetails extends React.Component{
                     <CardContent>
                         <h3>Beauty of Nature</h3>
                         <p>
-                        Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        
+                        Labrador Retrievers are very gentle dogs with family-friendly personalities.                        
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -107,7 +110,8 @@ class Carddetails extends React.Component{
             
                 </Card> 
                    </div> 
-                   </div>              
+                   </div> 
+                   </div>             
         );
     }
 }
