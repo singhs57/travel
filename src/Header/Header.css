@@ -31,7 +31,7 @@ body {
   }
   .header ul .toggle-nav{
     font-size: 23px;
-    padding-left: 280px;
+    padding-left: 215px;
   }
   .header ul .toggle-nav:hover{
     font-size: 30px;
@@ -122,12 +122,14 @@ body {
    @media(max-width:600px){
      .header{
       margin: 12px 0 auto;
+      width: 100%;
      }
     .header ul{
-      margin: 0;     
+      margin: 0;    
+      max-width: 100%; 
     }
     .header ul .mylogo{
-      padding-right: 0;
+      padding-left: 0px;
     }
      .toggle-nav{
        font-size: 30px;
@@ -150,7 +152,7 @@ body {
        
      }
      .header ul li a{
-       width: 75%;
+       width: 100%;
      }
      .social{
        width: 100%;
@@ -163,7 +165,7 @@ body {
        text-align: center;
      }
      .header ul div{
-      width: 75%;
+      width: 100%;
       text-align: center;
       border-top: 0px solid #fff;
       float: left;
