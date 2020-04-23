@@ -31,7 +31,7 @@ body {
   }
   .header ul .toggle-nav{
     font-size: 23px;
-    padding-left: 215px;
+    margin-right: -150px;
   }
   .header ul .toggle-nav:hover{
     font-size: 30px;
@@ -125,11 +125,11 @@ body {
       width: 100%;
      }
     .header ul{
-      margin: 0;    
-      max-width: 100%; 
+      margin: 0;   
+      max-width: 100%;  
     }
     .header ul .mylogo{
-      padding-left: 0px;
+      padding-right: 0;
     }
      .toggle-nav{
        font-size: 30px;
@@ -161,7 +161,7 @@ body {
      }
      .social ul li{
        float: left;
-       max-width: 80px;
+       max-width: 72px;
        text-align: center;
      }
      .header ul div{
