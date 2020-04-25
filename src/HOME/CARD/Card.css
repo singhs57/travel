@@ -5,16 +5,12 @@ body{
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://img.freepik.com/free-photo/technical-financial-graph-technology-abstract-background_34663-60.jpg?size=626&ext=jpg');
-    background-position: center;
-    background-size: cover;
-    position: absolute;
 }
 .form-box{
     width: 350px;
     height: 450px;
     position: relative;
-    margin: 6% auto;
+    margin: 4% auto;
     background: rgba(31, 29, 29, 0.795);
     padding: 5px;
     overflow: hidden;
@@ -101,10 +97,9 @@ body{
     margin: 30px 10px 30px 0;
 }
 span{
-    color: #777;
+    color: rgb(59, 55, 55);
     font-size: 12px;
     bottom: 68px;
-    position: absolute;
 }
 #login{
     left: 50px;

@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: rgba(145, 141, 141, 0.712);
+  background: rgba(155, 155, 155, 0.767);
   font-family: 'Courier New', Courier, monospace;
 
 }
@@ -9,8 +9,26 @@ body{
   position: relative;
   width: 1280px;
   height: 500px;
-  margin: 0px auto 0;
-  
+  margin: 0px auto 0;  
+}
+.title-content{
+  margin-bottom: 15px;
+}
+.title-content h1{
+  color: #fff;
+  font-size: 52px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.title-content p{
+  color: rgb(32, 32, 32);
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
 }
 .container1 .box{
   position: relative;
@@ -71,9 +89,9 @@ body{
     transition: 0.5s;
   }
   .container1 .box:hover .imgBox img{
-    filter: blur(4px);
-    opacity: 0.5;
-    transform: scale(1.2);
+    filter: blur(2px);
+    opacity: 1.5;
+    transform: scale(1.5);
   }
   .container1 .box .content{
     position: absolute;
@@ -88,7 +106,7 @@ body{
   .container1 .box .content h2{
     margin: 0;
     padding: 0;
-    color: rgb(132, 0, 255);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
     transform: translateY(-50%);
     opacity: 0;

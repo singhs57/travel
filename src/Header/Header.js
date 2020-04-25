@@ -44,7 +44,7 @@ const Header = (props) => {
         </ul>
         </div>
                   
-            <ul>  
+            <ul> 
                         
         <li><a href = "/" className='active'> Home</a></li>
         <li> <a href = "/About"> About</a></li>  

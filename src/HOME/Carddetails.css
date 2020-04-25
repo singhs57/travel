@@ -1,5 +1,29 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+.whole-body-back{
+  background: rgb(160, 158, 158);
+  
+}
+.destination-title{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.destination-title h1{
+  color: #fff;
+  font-size: 52px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.destination-title p{
+  color: rgb(39, 39, 39);
+  text-align: center;
+  letter-spacing: 1px;
 }
 .row{
   margin: 0 -5px;
@@ -9,20 +33,13 @@
   display: table;
   clear: both;
 }
-/* .card{
-    height: 420px;
-    width: 320px;
-    margin: 0px auto;
-    float: left;
-    padding: 0 30px;
-    
-} */
 .column {
   float: left;
   width: 25%;
   padding: 0 10px;
   box-shadow: 10px 10px 8px 0 rgba(68, 68, 68, 0.877);
 }
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -31,50 +48,45 @@
   }
 }
 .card {
-  
   padding: 10px;
   text-align: center;
-  max-height: 450px;  
+   max-width: 550px; 
 }
 .header1{
-background-image: url(https://wallpapercave.com/wp/Lzqbhii.jpg);
-height: 150px;
+  background-image: url('https://www.elsetge.cat/myimg/f/223-2233779_full-hd-smiley-ball.jpg');
+  height: 150px;
   width: 100%;
   padding: 20px;
-  width:100%;
   background-size:cover;
-}
+  }
 .header h3{
     margin: 0px;
 }
 .header2{
-  background-image: url(https://miro.medium.com/max/3840/1*qUxaz3RDvnuNoTE23YRCOw.jpeg);
+  background-image: url('https://vietnam.travel/sites/default/files/inline-images/Top%20%20Luxury%20Hotels%20Vietnam-6.jpg');
   height: 150px;
     width: 100%;
     padding: 20px;
-    width:100%;
     background-size:cover;
   }
   .header h3{
       margin: 0px;
   }
   .header3{
-    background-image: url(https://assets.newatlas.com/dims4/default/070ca83/2147483647/strip/true/crop/4032x1960+0+0/resize/1200x583!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fc3%2Fb7%2Ffcf101f241d3a2e58784fe548b16%2Fant-balancing-the-earth-by-anadgphotography-philippines-analiza-de-guzman-agora-images.jpg);
+    background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/160726132158-us-beautiful-hotels-4-four-seasons-maui-2.jpg');
     height: 150px;
       width: 100%;
       padding: 20px;
-      width:100%;
       background-size:cover;
     }
     .header h3{
         margin: 0px;
     }
     .header4{
-      background-image: url(https://www.worldphoto.org/sites/default/files/default-media/1234395%20%C2%A9%20corin%20mihaila%2C%20Romania%2C%20entry%2C%20Open%20competition%2C%20Landscape%2C%202019%20Sony%20World%20Photography%20Awards.jpg);
+      background-image: url('https://adwallpapers.xyz/uploads/posts/75503-spa-stones-candles-wallpaper-4k-ultra-hd-wallpaper__other.jpg');
       height: 150px;
         width: 100%;
         padding: 20px;
-        width:100%;
         background-size:cover;
       }
       .header h3{

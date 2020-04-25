@@ -10,8 +10,8 @@ import InputBase from '@material-ui/core/InputBase';
 // import Button from '@material-ui/core/Button';
 import Sidemenu from './Sidemenu';
 import Popularpackages from './Popularpackages';
-import Scrollup from './Scrollup';
-// import Card from './CARD/Card';
+import Card from './CARD/Card';
+import Ourservices from '../Ourservices';
 
 
 function Home() {
@@ -22,16 +22,25 @@ function Home() {
         {/* <Sidemenu/>  */}
         {/* <h1>“Live with no excuses and travel with no regrets”</h1> */}
         <Slideshow/> 
-        <br />
+        <div>
         <Popularpackages/>
-        <br />
+        </div>  
+        
+        <div>
+            <Ourservices/>
+        </div>
+
+        <div>
         <Carddetails/>
-        {/* <Card/>         */}
+        </div>
         
-        <br />
-        
+        <div>
+        {/* <Card/> */}
+        </div> 
+          
+        <div>
         <h3>Looks like you've reached the end (:=)</h3>    
-        <Scrollup/>    
+        </div>        
         </div>
     )
 }

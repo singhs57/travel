@@ -18,7 +18,7 @@ body{
     left: 0;
     width: 500%;
     height: 100%;
-    animation: animate 20s linear infinite;
+    animation: animate 30s linear infinite;
 }
 .container .slider .slide{
     position: relative;
@@ -28,51 +28,51 @@ body{
 }
 .container .slider .slide .caption{
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 60px;
     right: 60px;
     padding: 30px;
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
-    transition: 0.9s;
+    transition: 0.4s;
 }
 .container .slider .slide .caption h2{
     margin: 0;
     padding: 0;
     color: #fff;
     font-size: 40px;
-    transition: 0.9s;
+    transition: 0.5s;
+    margin: 10px;
 }
 .container .slider .slide .caption p{
     margin: 0;
     padding: 0;
     color: #fff;
     font-size: 18px;
-    transition: 0.9s;
+    transition: 0.5s;
 }
 .container .slider .slide.slide1{
-    background: url('https://images6.alphacoders.com/685/685218.jpg');
-    
+    background: url('https://www.acetreks.com/files/pics/sikkim2.jpg');    
     background-size: cover;
     background-position: center;
-}
+}   
 .container .slider .slide.slide2{
-    background: url('https://images-na.ssl-images-amazon.com/images/I/61zB3h2Z7ZL._AC_SX466_.jpg');
+    background: url('https://images7.alphacoders.com/661/thumb-1920-661783.jpg');
     background-size: cover;
     background-position: center;
 }
 .container .slider .slide.slide3{
-    background: url('https://friendlystock.com/wp-content/uploads/2018/08/7-tropical-beach-with-serene-waters-background-cartoon-clipart.jpg');
+    background: url('https://wallup.net/wp-content/uploads/2015/12/172590-nature-landscape-train-railway-mountain-snow-trees-winter-clouds-wood-men-Switzerland.jpg');
     background-size: cover;
     background-position: center;
 }
 .container .slider .slide.slide4{
-    background: url('https://friendlystock.com/wp-content/uploads/2018/08/8-tropical-beach-background-cartoon-clipart.jpg');
+    background: url('https://www.garnet-hill.com/wp-content/uploads/2018/09/Wine-by-the-Fireplace-at-Garnet-Hill-Lodge.jpg');
     background-size: cover;
     background-position: center;
 }
 .container .slider .slide.slide5{
-    background: url('https://www.glamvel.com/wp-content/uploads/2017/01/desert-safari-dubai-quote.jpg');
+    background: url('https://wallpaperaccess.com/full/549274.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -107,10 +107,11 @@ body{
     {
         left: -300%;
     }
-    95%
+    90%
     {
         left: -300%;
     }
+    
     100%
     {
         left: -400%;

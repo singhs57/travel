@@ -39,7 +39,7 @@ class Scrollup extends React.Component{
 render(){
     const { is_visible } = this.state;
 return(
-<div className='Scroll'>
+<div className='Scroll-up'>
 {is_visible && (
 <FontAwesomeIcon icon={faArrowAltCircleUp} title="Let's Move to top" onClick={this.scrollToTop}/>
 )}

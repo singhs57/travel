@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.services{
+    text-align: center;
+}
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 42px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    color: honeydew;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.service{
+    display: inline-block;
+    width: 33.3%;
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.service:hover{
+    background: #ddd;    
+}
+.service i{
+    color: #3498db;
+    font-size: 40px;
+    margin-bottom: 30px;    
+}
+.service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+    color: honeydew;
+}
+.service p{
+    color: rgb(36, 33, 33);
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width:600px){
+    .service{
+        width: 100%;
+        float: left;
+    }
+}

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
 import './About.css';
+import Ourservices from '../Ourteam';
+import Ourteam from '../Ourteam';
 
 class About extends Component{
 render(){
     return(
-        <div className="About">
-            <h1> Welcome to About us Page of React JS</h1>
+        <div>
+        <div className='About-imag'>
+        </div>
+        <Ourteam/>
         </div>
     )
 }

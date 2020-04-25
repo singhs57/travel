@@ -6,7 +6,7 @@ body {
   }
   .header{
     max-width: 1270px;
-    background: rgba(36, 35, 35, 0.692);
+    background: rgba(95, 92, 92, 0.616);
     overflow: auto;
     margin: 12px 50px auto;
     border-radius: 5px; 
@@ -60,7 +60,7 @@ body {
   .header ul li a:hover{
     color: rgb(0, 0, 0);
     /* background: rgba(0, 0, 0, 0.589); */
-    font-size: 17px;
+    font-size: 20px;
     transition: 0.7s;
   }
   .toggle-nav{
@@ -90,7 +90,7 @@ body {
     .header ul div h1:hover{
       transition: 0.8s;
       color: rgb(0, 174, 255);
-      font-size: 38px;
+      font-size: 40px;
     }
     .header ul div{
       float: right;

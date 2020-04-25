@@ -10,7 +10,7 @@ const Popularpackages=()=> {
     
 return(
     <div>
-    <div>
+    <div className='title-content'>
             <h1>Most Popular Packages</h1>
             <p>Wondering where to go for your next holidays?</p> 
             <p> Has sitting at home rummaging through the internet for the best holiday destinations...</p>

@@ -15,21 +15,23 @@ import { faBookmark, faShareAlt } from '@fortawesome/free-solid-svg-icons'
 class Carddetails extends React.Component{
     render(){
         return(
-            <div>
+            <div className='whole-body-back'>
+                <div className='destination-title'>
                 <h1>Popular Destination</h1>
             <p>TRAVELS4U brings you the best opportunity to enjoy holiday at 
                 different destinations across the world.</p>
+                </div>
             <div className='row'>
             <div className='column'>
             <Card className='card'>            
                     <CardMedia className='header1'
-                    title='Labrador Puppies'>
+                    title='Fun & Food'>
                     </CardMedia>
                     <CardContent>
-                        <h3>Beauty of Nature</h3>
+                        <h3>Fun & Food</h3>
                         <p>
-                        Labrador Retrievers are very gentle dogs with family-friendly personalities.
-                        
+                        The Fun N Food Village offers India's largest collection of Water slides 
+                        and attractions for the toddler learning how to swim to the Water sports enthusiast seeking.                        
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -48,9 +50,10 @@ class Carddetails extends React.Component{
                     title='Labrador Puppies'>
                     </CardMedia>
                     <CardContent>
-                        <h3>Beauty of Nature</h3>
+                        <h3>Luxury Hotels</h3>
                         <p>
-                        Labrador Retrievers are very gentle dogs with family-friendly personalities.                        
+                        The Fun N Food Village offers India's largest collection of Water slides 
+                        and attractions for the toddler learning how to swim to the Water sports enthusiast seeking.                        
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -71,9 +74,10 @@ class Carddetails extends React.Component{
                     title='Labrador Puppies'>
                     </CardMedia>
                     <CardContent>
-                        <h3>Beauty of Nature</h3>
+                        <h3>Beautiful Resort</h3>
                         <p>
-                        Labrador Retrievers are very gentle dogs with family-friendly personalities.
+                        The Fun N Food Village offers India's largest collection of Water slides 
+                        and attractions for the toddler learning how to swim to the Water sports enthusiast seeking..
                         </p>
                     </CardContent>
                     <CardActionArea>
@@ -94,9 +98,10 @@ class Carddetails extends React.Component{
                     title='Labrador Puppies'>
                     </CardMedia>
                     <CardContent>
-                        <h3>Beauty of Nature</h3>
+                        <h3>Massage Parlour</h3>
                         <p>
-                        Labrador Retrievers are very gentle dogs with family-friendly personalities.
+                        The Fun N Food Village offers India's largest collection of Water slides 
+                        and attractions for the toddler learning how to swim to the Water sports enthusiast seeking.
                         </p>
                     </CardContent>
                     <CardActionArea>
