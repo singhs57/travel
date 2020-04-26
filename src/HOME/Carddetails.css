@@ -10,19 +10,20 @@
 .destination-title{
   margin-top: 5%;
   margin-bottom: 5%;
+  text-align: center;
 }
 .destination-title h1{
   color: #fff;
-  font-size: 52px;
+  display: inline-block;
+  border-bottom: 4px solid #3498db;
+  font-size: 42px;
   font-family: monospace;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 3px;
+  font-weight: bold;  
+  letter-spacing: 1px;
   margin-bottom: 10px;
 }
 .destination-title p{
   color: rgb(39, 39, 39);
-  text-align: center;
   letter-spacing: 1px;
 }
 .row{
@@ -45,6 +46,9 @@
     width: 100%;
     display: block;
     margin-bottom: 20px;
+  }
+  .destination-title h1{
+    width: 100%;
   }
 }
 .card {

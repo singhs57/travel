@@ -4,12 +4,14 @@ body{
 }
 .services{
     text-align: center;
+    background: rgb(146, 145, 145);
 }
 .services h1{
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 4px solid #3498db;
     font-size: 42px;
+    font-family: monospace;
     padding-bottom: 10px;
     margin-top: 20px;
     color: honeydew;

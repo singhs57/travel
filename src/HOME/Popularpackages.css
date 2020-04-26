@@ -5,31 +5,33 @@ body{
   font-family: 'Courier New', Courier, monospace;
 
 }
+.title-content{
+  margin-bottom: 15px;
+  text-align: center;
+}
+.title-content h1{ 
+  display: inline-block;
+  border-bottom: 4px solid #3498db;
+  color: #fff;
+  font-size: 42px;
+  font-family: monospace;
+  font-weight: bold;  
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.title-content p{
+  color: rgb(32, 32, 32);
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
 .container1{
   position: relative;
   width: 1280px;
   height: 500px;
   margin: 0px auto 0;  
 }
-.title-content{
-  margin-bottom: 15px;
-}
-.title-content h1{
-  color: #fff;
-  font-size: 52px;
-  font-family: monospace;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 3px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-.title-content p{
-  color: rgb(32, 32, 32);
-  text-align: center;
-  letter-spacing: 1px;
-  margin-bottom: 5px;
-}
+
 .container1 .box{
   position: relative;
   width: 405px;
@@ -86,10 +88,10 @@ body{
     
   }
   .container1 .box .imgBox img{
-    transition: 0.5s;
+    transition: 0.3s;
   }
   .container1 .box:hover .imgBox img{
-    filter: blur(2px);
+    filter: blur(1px);
     opacity: 1.5;
     transform: scale(1.5);
   }
@@ -132,4 +134,10 @@ body{
     transition-delay: 0.2s;
     font-weight: bold;
   }
+  @media screen and (max-width:600px){
+    .container1{
+        width: 100%;
+        margin-bottom: auto;
+    }
+}
   

@@ -19,7 +19,7 @@ export default function AlertDialog() {
 
   return (
     <div>
-      <Button className='dialog' variant="outlined" color="primary" onClick={handleClickOpen}>
+      <Button color="primary" onClick={handleClickOpen}>
         Learn More
         </Button>
       <Dialog
