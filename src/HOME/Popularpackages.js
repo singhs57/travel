@@ -29,7 +29,9 @@ return(
                            native to Madagascar, like all other lemurs.The giant mouse lemurs 
                            (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
 
-                          <p> <Button variant="contained" color="primary"> View Packages </Button> </p>
+                          <p> <Button variant="contained" color="primary" > <Link to ='/Card'>View Packages</Link> 
+                          </Button> 
+                          </p>
                 </div>
             </div>
 
@@ -44,7 +46,7 @@ return(
                        <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. 
                            The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.
                            The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
-                       <p> <Button variant="contained" color="primary"> View Packages </Button> </p>                
+                       <p> <Button variant="contained" color="primary"><Link to ='/Contact'>View Packages</Link></Button> </p>                
                 </div>
             </div>
 
@@ -57,7 +59,7 @@ return(
                        <h2>New Zealand</h2>
                        <span></span>
                        <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
-                       <p> <Button variant="contained" color="primary"> View Packages </Button> </p> 
+                       <p> <Button variant="contained" color="primary"><Link to ='/Contact'>View Packages</Link></Button> </p> 
                 </div>
             </div>
 
@@ -70,7 +72,7 @@ return(
                        <h2>Four Seasons America</h2>
                        <span></span>
                        <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p> 
-                       <p> <Button variant="contained" color="primary"> View Packages </Button> </p> 
+                       <p> <Button variant="contained" color="primary"><Link to ='/Contact'>View Packages</Link></Button> </p> 
                 </div>
             </div>
 
@@ -83,7 +85,7 @@ return(
                        <h2>Incredible India</h2>
                        <span></span>
                        <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
-                       <p> <Button variant="contained" color="primary"> View Packages </Button> </p> 
+                       <p> <Button variant="contained" color="primary"> <Link to ='/Contact'>View Packages</Link> </Button> </p> 
                 </div>
             </div>
 
@@ -96,7 +98,7 @@ return(
                        <h2>Amazing Australia</h2>
                        <span></span>
                        <p>The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs. The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.The giant mouse lemurs (genus Mirza) are primates native to Madagascar, like all other lemurs.</p>
-                       <p> <Button variant="contained" color="primary"> View Packages </Button> </p> 
+                       <p> <Button variant="contained" color="primary"> <Link to ='/Contact'>View Packages</Link> </Button> </p> 
                 </div>
             </div>  
 

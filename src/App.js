@@ -22,6 +22,7 @@ class App extends React.Component{
       </div>
       <BrowserRouter>
       <Switch>
+      <Route path="/Header" component={Header} />
       <Route path="/" exact component={Home} />
       <Route path="/Login" component={Login} />
       <Route path="/Logout" component={Logout} />

@@ -12,6 +12,7 @@ import Sidemenu from './Sidemenu';
 import Popularpackages from './Popularpackages';
 import Card from './CARD/Card';
 import Ourservices from '../Ourservices';
+import Intro from '../INTRODUCTION/Intro';
 
 
 function Home() {
@@ -22,6 +23,9 @@ function Home() {
         {/* <Sidemenu/>  */}
         {/* <h1>“Live with no excuses and travel with no regrets”</h1> */}
         <Slideshow/> 
+        <div>
+            <Intro/>
+        </div>
         <div>
         <Popularpackages/>
         </div>  

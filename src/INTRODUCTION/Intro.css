@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.intro-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.img-col{
+    flex-basis: 40%;
+}
+.intro-text{
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 5%;
+}
+.intro-text h1{
+    margin: 15px auto;
+    color: honeydew;
+    font-size: 42px;
+    font-family: monospace;
+}
+.intro-text p{
+    margin-top: 55px;
+    font-size: 20px;
+}
+.intro-but{
+    margin-top: 50px;
+}
+ @media screen and (max-width:600px){
+     .intro-pic{
+         display: block;
+         width: 100%;
+     }
+ }

@@ -27,14 +27,15 @@ body{
     width: auto;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 .team .team-member{
     background: #fff;
-    margin: 5px;
-    margin-bottom: 50px;
+    margin: 50px;
+    margin-bottom: 65px;
     width: 300px;
     padding: 20px;
-    line-height: 20px;
+    line-height: 18px;
     color: #3b3737;
     position: relative;
 }
@@ -68,7 +69,6 @@ body{
 }
 .team .team-member:hover{
     box-shadow: 1px 2px 5px 5px rgba(236, 242, 243, 0.911);
-    margin-top: 0.5%;
     transition: 0.5s;
 }
 .team .team-member .team-images img:hover{

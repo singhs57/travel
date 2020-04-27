@@ -53,7 +53,7 @@ function Card(){
 
         <form id='login' className='input-group'>
         <input type='text' className='input-field' placeholder='User Id' required/>
-        <input type='password' className='input-field' placeholder='Enter Password' required/>
+        <input type='password' className='input-field' placeholder='Password' required/>
         <input type='checkbox' className='check-box'></input> <span>Remember Password</span>
         <button type='submit' className='submit-btn'>Login</button>
         </form>
