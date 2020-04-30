@@ -1,6 +1,7 @@
 .Scroll-up{
-    font-size: 35px;
+    font-size: 40px;
     float: right;
-    padding: 3px 7px;
-    color: rgb(255, 255, 255);    
+    padding: 0px 20px;
+    color: rgb(255, 255, 255); 
+    margin: -10px auto;  
 }

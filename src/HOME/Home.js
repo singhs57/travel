@@ -40,10 +40,6 @@ function Home() {
         
         <div>
         {/* <Card/> */}
-        </div> 
-          
-        <div>
-        <h3>Looks like you've reached the end (:=)</h3>    
         </div>        
         </div>
     )

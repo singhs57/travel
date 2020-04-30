@@ -8,7 +8,8 @@ import Contact from './CONTACT/Contact';
 import Logout from './LOGOUT/Logout';
 import Header from './Header/Header';
 import Card from './HOME/CARD/Card';
-import Scrollup from './HOME/Scrollup';
+
+import Footer from './FOOTER/Footer';
 
 
 class App extends React.Component{  
@@ -31,7 +32,11 @@ class App extends React.Component{
       <Route path="/Card" component={Card} />  
       </Switch>
       </BrowserRouter> 
-      <Scrollup/>        
+      
+       
+      <br />
+      <Footer/> 
+           
     </div>
     );
   }
