@@ -44,17 +44,14 @@ const Header = (props) => {
         </li>                    */}
         </ul>
         </div>
-                  
-            <ul> 
+        <ul> 
                         
         <li><a href = "/" className='active'> Home</a></li>
         <li> <a href = "/About"> About</a></li>  
         <li><a href = "/Contact">Contact</a></li>
         <li><a href = "/Contact"> Gallery</a></li>
         <li><a href = "/Contact"> Feedback</a></li>
-        <li><a href = "/Contact"> Event</a></li>
-        
-        
+        <li><a href = "/Contact"> Event</a></li> 
         </ul> 
         </nav>
         

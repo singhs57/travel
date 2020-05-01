@@ -48,9 +48,9 @@ const Footer = (props) => {
                 <h2>Quick Links</h2>
                 <br/>
                 <ul>
+        <li> <a href = "/"> Home</a></li>
         <li> <a href = "/About"> About</a></li>  
         <li><a href = "/Contact"> Gallery</a></li>
-        <li><a href = "/Contact"> Feedback</a></li>
         <li><a href = "/Contact"> Events</a></li>
         <li><a href = "/Contact"> Write for Us</a></li>
         <li><a href = "/Contact"> Terms and Conditions</a></li>
@@ -59,7 +59,7 @@ const Footer = (props) => {
 
 
             <div className='footer-section contact-form'>
-            <h2>Contact Us</h2>
+            <h2>Feedback</h2>
             <form action='index.html' method='post'>
 <input type='email' name='email' className='text-input contact-input' placeholder='Your email address...'/>
 <textarea name='message' className='text-input contact-input' placeholder='Your message...'/>

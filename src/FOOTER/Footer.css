@@ -3,10 +3,11 @@ body{
     padding: 0;
 }
 .footer{
+    width: 100%;
     background: rgba(1, 21, 41, 0.884);
     color: whitesmoke;
-    height: 650px;
-    position: relative;
+       
+    display: block;
 }
 .footer .footer-newsletr{
     background: url('https://image.freepik.com/free-photo/_53876-14852.jpg');
@@ -14,7 +15,7 @@ body{
     text-align: center;
     padding: 20px 40px;
     color: white;
-    height: 235px;
+    
 }
 .footer .footer-newsletr h3{
     margin: 10px auto;
@@ -31,7 +32,7 @@ body{
     height: 50px;
     display: flex;
     justify-content: center;
-    margin: 35px auto;
+    margin: 27px auto;
 }
 .email-box i{
     background: rgb(0, 174, 255);
@@ -66,13 +67,15 @@ border-radius: 30px;
 }
 
 .footer .footer-content{
-    height: 350px;
+    width: 95%;
+    margin: auto;
     display: flex;
-
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 .footer .footer-content .footer-section{
-    flex: 1px;
-    padding: 25px;
+    width: 33%;
+    padding: 10px 20px;
 }
 .footer .footer-content .footer-section .logo-text{
     font-size: 40px;
@@ -83,8 +86,9 @@ border-radius: 30px;
     color: rgb(243, 229, 102);
 }
 .footer .footer-content .footer-section p{
-    line-height: 22px;
-    margin-bottom: 10px;
+    line-height: 25px;
+    margin-bottom: 7px;
+    text-align: justify;
 }
 .footer .footer-content .footer-section .contact-details{
     line-height: 25px;
@@ -121,7 +125,9 @@ border-radius: 30px;
 .footer .footer-content .links h2{
     font-size: 35px;
     letter-spacing: 1px;
+    font-weight: lighter;
 }
+
 .footer .footer-content .links h2:hover{
     color: rgb(241, 227, 95);
 }
@@ -143,6 +149,7 @@ border-radius: 30px;
 }
 .footer .footer-content .contact-form h2{
     font-size: 35px;
+    font-weight: lighter;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -175,19 +182,24 @@ border-radius: 30px;
 }
 .footer .footer-bottom{
     color: khaki;
-    height: 65px;
+    padding: 20px;
     width: 100%;
     text-align: center;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 20px;
     border-top: 1px solid rgb(245, 248, 91);
-    overflow: hidden;
 }
-@media(max-width:768px){
+@media screen and (max-width:1000px){
     
-    .footer{
-        width: 100%;
+    .footer-section{
+        width: 50%;
     }
+}
+@media screen and (max-width:600px){
+    
+    
+    .footer .footer-content .footer-section{
+        width: 100%;
+        padding: 15px 20px;
+    }
+    
+
 }
