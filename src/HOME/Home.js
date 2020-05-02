@@ -13,6 +13,9 @@ import Popularpackages from './Popularpackages';
 import Card from './CARD/Card';
 import Ourservices from '../Ourservices';
 import Intro from '../INTRODUCTION/Intro';
+import Gallery from '../GALLERY/Gallery';
+import Achivements from '../ACHIVEMENTS/Achivements';
+import Header from '../Header/Header';
 
 
 function Home() {
@@ -20,6 +23,7 @@ function Home() {
 
     return (
         <div>
+            <Header />
         {/* <Sidemenu/>  */}
         {/* <h1>“Live with no excuses and travel with no regrets”</h1> */}
         <Slideshow/> 
@@ -37,9 +41,9 @@ function Home() {
         <div>
         <Carddetails/>
         </div>
-        
+        <Achivements />
         <div>
-        {/* <Card/> */}
+        <Gallery/>
         </div>        
         </div>
     )

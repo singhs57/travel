@@ -1,61 +1,61 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faTwitterSquare, faFacebook, faGooglePlus, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './Header.css';
-import {Link} from 'react-router-dom';
-import {faPhoneAlt, faEnvelope, faSearch} from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
+import { faPhoneAlt, faEnvelope, faSearch } from '@fortawesome/free-solid-svg-icons'
 
 
 
 const Header = (props) => {
-    
-    const[search,setSearch]=useState(false);
-    
-    const submitSearch = (e)=>{
-        e.preventDefault();
-        alert('Search Successful');      
-         };
 
-    const openSearch=()=>{
+    const [search, setSearch] = useState(false);
+
+    const submitSearch = (e) => {
+        e.preventDefault();
+        alert('Search Successful');
+    };
+
+    const openSearch = () => {
         setSearch(true);
-    }  
-    
-    const searchClass=search?'searchInput active': 'searchInput'
-    return(
-            <header> 
-                <nav className='header'>               
-        <div className='social'>             
-        <ul> 
-        <div className='mylogo'>TRAVELS4U
+    }
+
+    const searchClass = search ? 'searchInput active' : 'searchInput'
+    return (
+        <header>
+            <nav className='header'>
+                <div className='social'>
+                    <ul>
+                        <div className='mylogo'>TRAVELS4U
             <div className='toggle-nav'>&#9776;</div>
-            </div>
-                                     
-            <li><a href='/About'><FontAwesomeIcon icon={faFacebook} title='Facebook'/></a></li>  
-            <li><a href='/About'><FontAwesomeIcon icon={faYoutube} title='Youtube'/></a></li>
-            <li><a href='/About'><FontAwesomeIcon icon={faTwitterSquare} title='Twitter'/></a></li>
-            <li><a href='/About'><FontAwesomeIcon icon={faGooglePlus} title='Google Plus'/></a></li>
-            <li><a href='/About'><FontAwesomeIcon icon={faLinkedinIn} title='LinkedIn'/></a></li>
-            
-        {/* <li>
+                        </div>
+
+                        <li><Link to='/About'><FontAwesomeIcon icon={faFacebook} title='Facebook' /></Link></li>
+                        <li><Link to='/About'><FontAwesomeIcon icon={faYoutube} title='Youtube' /></Link></li>
+                        <li><Link to='/About'><FontAwesomeIcon icon={faTwitterSquare} title='Twitter' /></Link></li>
+                        <li><Link to='/About'><FontAwesomeIcon icon={faGooglePlus} title='Google Plus' /></Link></li>
+                        <li><Link to='/About'><FontAwesomeIcon icon={faLinkedinIn} title='LinkedIn' /></Link></li>
+
+                        {/* <li>
         <form onSubmit={submitSearch} className='item-search'>
         <input type='text' className={searchClass} id='inputBar' placeholder='Search'/>&nbsp;
         <FontAwesomeIcon className='awesomeIcon' icon={faSearch} onClick={openSearch}/>
         </form>
         </li>                    */}
-        </ul>
-        </div>
-        <ul> 
-                        
-        <li><a href = "/" className='active'> Home</a></li>
-        <li> <a href = "/About"> About</a></li>  
-        <li><a href = "/Contact">Contact</a></li>
-        <li><a href = "/Contact"> Gallery</a></li>
-        <li><a href = "/Contact"> Feedback</a></li>
-        <li><a href = "/Contact"> Event</a></li> 
-        </ul> 
-        </nav>
-        
-        
+                    </ul>
+                </div>
+                <ul>
+
+                    <li><Link to="/" exact className='active'> Home</Link></li>
+                    <li> <Link to="/About"> About</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
+                    <li><Link to="/Gallery"> Gallery</Link></li>
+                    <li><Link to="/Achivements"> Achivements</Link></li>
+     <li><Link to="/Contact"> Event</Link></li>
+                </ul>
+            </nav>
+
+
         </header>
     )
 

@@ -11,8 +11,7 @@ body{
 }
 .img-col{
     flex-basis: 40%;
-    
-}
+    }
 .intro-text{
     margin-left: 5%;
     margin-top: 15px;

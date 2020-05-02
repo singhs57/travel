@@ -182,9 +182,8 @@ border-radius: 30px;
 }
 .footer .footer-bottom{
     color: khaki;
-    padding: 20px;
+    padding: 20px 40px;
     width: 100%;
-    text-align: center;
     border-top: 1px solid rgb(245, 248, 91);
 }
 @media screen and (max-width:1000px){
@@ -199,6 +198,9 @@ border-radius: 30px;
     .footer .footer-content .footer-section{
         width: 100%;
         padding: 15px 20px;
+    }
+    .footer .footer-bottom{
+        width: 100%;
     }
     
 

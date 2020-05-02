@@ -6,11 +6,10 @@ import Home from './HOME/Home';
 import About from './ABOUT/About';
 import Contact from './CONTACT/Contact';
 import Logout from './LOGOUT/Logout';
-import Header from './Header/Header';
 import Card from './HOME/CARD/Card';
-
+import Gallery from './GALLERY/Gallery';
 import Footer from './FOOTER/Footer';
-
+import Achivements from './ACHIVEMENTS/Achivements';
 
 class App extends React.Component{  
   
@@ -19,17 +18,18 @@ class App extends React.Component{
     
     <div>
       <div>
-        <Header/>
+        {/* <Header/> */}
       </div>
       <BrowserRouter>
       <Switch>
-      <Route path="/Header" component={Header} />
       <Route path="/" exact component={Home} />
       <Route path="/Login" component={Login} />
       <Route path="/Logout" component={Logout} />
       <Route path="/About" component={About} />
       <Route path="/Contact" component={Contact} />  
       <Route path="/Card" component={Card} />  
+      <Route path="/Gallery" component={Gallery} />  
+      <Route path="/Achivements" component={Achivements} />  
       </Switch>
       </BrowserRouter> 
       
