@@ -2,6 +2,9 @@ import React from 'react'
 import './Card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitterSquare, faFacebook,faYoutube } from '@fortawesome/free-brands-svg-icons';
+import Header from '../../Header/Header';
+
+
 
 function Card(){
 
@@ -39,6 +42,7 @@ function Card(){
 
   return(
     <div className='hero'>
+      <Header/>
         <div className='form-box'>
           <div className='button-box'>
             <div id='btn'></div>

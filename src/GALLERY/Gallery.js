@@ -66,8 +66,13 @@ class Gallery extends React.Component {
     render() {
         const { imagesObj, selectedCategory  } = this.state;
         return (
+            <div>
             <div className='gallery-container' >
-                <Header/>
+               
+                <div className='gallery-text'>
+                    <h1>Photo Gallery</h1>
+                    <p>Find your personal space.....!</p>
+                </div>
                 <div className='navigation'>
                     <button className='navi active' onClick={() => this.setImageCategory('all')}>All Images</button>
                     <button className='navi' onClick={() => this.setImageCategory('beach')}>Beaches</button>
@@ -91,6 +96,7 @@ class Gallery extends React.Component {
                     </div>
 
                 </div>
+            </div>
             </div>
         )
     }

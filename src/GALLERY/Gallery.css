@@ -3,39 +3,75 @@ body{
     padding: 0;
 }
 .gallery-container{
-    background: rgb(27, 26, 26) ;
+    background: rgb(95, 92, 92) ;
     width: 100%;
-    height: 500px;
-
+    height: 100%;
 }
-.navigation{
-    margin: 140px auto;
+.gallery-container .gallery-text{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.gallery-container .gallery-text h1{
+    font-size: 42px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-bottom: 4px solid #3498db;
+}
+.gallery-container .gallery-text p{
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: rgb(39, 39, 39);
+}
+.gallery-container .navigation{
+    margin: 50px auto;
     text-align: center;
     height: 30px;
 }
-.navigation .navi{
+.gallery-container .navigation .navi{
     border: 1px solid rgb(0, 255, 242);
     padding: 10px 20px;
     border-radius: 50px;
     width: 150px;
-    margin: 100px 10px;
-    
+    margin: 0px 5px; 
+    font-family: monospace; 
+    font-size: 16px;
 }
-.navigation .navi.active{
+.gallery-container .navigation .navi.active{
     background-color: rgba(27, 181, 252, 0.808);
     border-color: white;
 }
-.ImageContainer{
+.gallery-container .navigation .navi:hover{
+    background-color: rgba(27, 181, 252, 0.808);
+}
+.gallery-container .navigation .navi.active:hover{
+    background-color: white;
+}
+.gallery-container .ImageContainer{
     width: fit-content;
     height: 100%;
-    margin: 0px 43px auto;
+    margin: 0px 45px auto;
 }
-.gal-img{
-    margin: 2px 5px auto;
+.gallery-container .ImageContainer .gallery-box {
+    width: fit-content
+}
+.gallery-container .ImageContainer .gal-img{
+    margin: 5px 3px auto;
     width: 200px;
     height: 150px;
 }
 
-.gallery-box {
-    width: fit-content
+
+@media screen and (max-width:600px){
+    .gallery-container{
+        width: 100%;
+        margin: auto;
+    }
+    .gallery-container .navigation{
+        display: inline-table;
+    }
+    
 }

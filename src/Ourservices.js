@@ -9,6 +9,7 @@ const Ourservices = (props) => {
   return(
     <div className='services'>
         <h1>Our Services</h1>
+        <p>Know about our services for better results...!</p>
         <div className='cen'>
             <div className='service'>
             <i><FontAwesomeIcon icon={faAnchor} title='Facebook'/></i>

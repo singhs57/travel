@@ -10,7 +10,7 @@ const Intro = (props) => {
           <img src={'https://www.elsetge.cat/myimg/f/218-2189736_family-wallpapers-background.jpg'} alt='pic' width='400' height='300'/>
           </div>
         <div className='intro-text'>
-            <h1>Welcome to TRAVELS4U Zone!</h1>
+            <h1>Welcome to <span><Link to='/Gallery' className='intro-logo' title='Know More'>TRAVELS4U</Link></span></h1>
             <p>Lorem ipsum dolor sit amet placerat facilisis felis miin sit amet placerat facilisis felis tempus. 
                 Eleifend pellentesque natoque faucibus magna felis miin tempusut etiam felis mi in tempus. 
                 Eleifend pellentesque natoque faucibus magna felis Eleifend pellentesque 

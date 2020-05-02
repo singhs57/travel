@@ -4,7 +4,7 @@ body{
 }
 .services{
     text-align: center;
-    background: rgb(146, 145, 145);
+    background: rgba(87, 87, 87, 0.836);
 }
 .services h1{
     display: inline-block;
@@ -15,6 +15,14 @@ body{
     padding-bottom: 10px;
     margin-top: 20px;
     color: honeydew;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.services p{
+    color: rgb(39, 39, 39);
+  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .cen{
     max-width: 1200px;
@@ -32,12 +40,16 @@ body{
     transition: 0.4s;
 }
 .service:hover{
-    background: #ddd;    
+    background: rgba(10, 10, 10, 0.479);    
 }
 .service i{
     color: #3498db;
     font-size: 40px;
     margin-bottom: 30px;    
+}
+.service i:hover{
+    font-size: 43px;
+    transition: 0.3s;
 }
 .service h2{
     font-size: 18px;
@@ -45,10 +57,13 @@ body{
     font-weight: 600;
     margin: 0;
     margin-bottom: 10px;
-    color: honeydew;
+    color: rgb(28, 31, 28);
+    font-family: monospace;
+    letter-spacing: 2px;
 }
+
 .service p{
-    color: rgb(36, 33, 33);
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 500;
 }

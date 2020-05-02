@@ -29,7 +29,8 @@ class App extends React.Component{
       <Route path="/Contact" component={Contact} />  
       <Route path="/Card" component={Card} />  
       <Route path="/Gallery" component={Gallery} />  
-      <Route path="/Achivements" component={Achivements} />  
+      <Route path="/Achivements" component={Achivements} /> 
+      <Route path='/Footer' component={Footer}/> 
       </Switch>
       </BrowserRouter> 
       

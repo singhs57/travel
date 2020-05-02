@@ -3,6 +3,7 @@ import './Carddetails.css';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
 // import Button from '@material-ui/core/Button';
+import { Link } from "react-router-dom";
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -18,7 +19,7 @@ class Carddetails extends React.Component{
             <div className='whole-body-back'>
                 <div className='destination-title'>
                 <h1>Popular Destination</h1>
-            <p>TRAVELS4U brings you the best opportunity to enjoy holiday at 
+            <p><span title='Know More'><Link to='/Card'>TRAVELS4U</Link></span> brings you the best opportunity to enjoy holiday at 
                 different destinations across the world.</p>
                 </div>
             <div className='row'>

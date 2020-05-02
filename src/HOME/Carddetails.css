@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .whole-body-back{
-  background: rgb(160, 158, 158);
+  background: rgba(48, 47, 47, 0.295);
   
 }
 .destination-title{
@@ -22,9 +22,19 @@
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+.destination-title span{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.destination-title span:hover{
+  color: rgb(255, 236, 60);
+}
 .destination-title p{
   color: rgb(39, 39, 39);
   letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .row{
   margin: 0 -5px;

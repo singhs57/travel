@@ -5,7 +5,8 @@ import { Slide } from 'react-slideshow-image';
 // import img5 from './img5.jpeg';
 // import img4 from './img4.jpg';
 import './Slideshow.css';
-
+import { Button } from '@material-ui/core';
+import { Link } from "react-router-dom";
 
 
 
@@ -50,7 +51,8 @@ const Slideshow = () => {
             [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
             Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
             punctuation, and space.</p>
-            <button>Read More</button>
+            <br/>
+            <Button variant="contained" color="primary"><Link to='/Gallery'>Read More</Link></Button>
         </div>
         </div>
 
@@ -61,6 +63,8 @@ const Slideshow = () => {
             [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
             Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
             punctuation, and space.</p>
+            <br/>
+            <Button variant="contained" color="primary"><Link to='/Card'>Read More</Link></Button>
         </div>
       </div>
 
@@ -71,6 +75,8 @@ const Slideshow = () => {
             [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
             Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
             punctuation, and space.</p>
+            <br/>
+            <Button variant="contained" color="primary"><Link to='/Card'>Read More</Link></Button>
         </div>
       </div>
 
@@ -81,6 +87,8 @@ const Slideshow = () => {
             [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
             Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
             punctuation, and space.</p>
+            <br/>
+            <Button variant="contained" color="primary"><Link to='/Card'>Read More</Link></Button>
         </div>
       </div>
 
@@ -91,6 +99,8 @@ const Slideshow = () => {
             [citation needed] Friedhelm Hillebrand conceptualised SMS in 1984 while working for Deutsche Telekom. 
             Sitting at a typewriter at home, Hillebrand typed out random sentences and counted every letter, number, 
             punctuation, and space.</p>
+            <br/>
+            <Button variant="contained" color="primary"><Link to='/Card'>Read More</Link></Button>
         </div>
       </div>
 
