@@ -1,3 +1,59 @@
-.countup{
+.middle{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.671),rgba(0, 0, 0, 0.733)),url('https://wallpapertag.com/wallpaper/full/a/3/c/123716-cool-high-resolution-wallpapers-2879x1912-for-windows-7.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+}
+.middle h1{
+    color: white;
     font-size: 42px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    display: inline-block;
+    border-bottom: 4px solid #3498db;
+    margin-top: 20px;
+}
+.middle p{
+    color: rgb(179, 167, 167);
+    font-size: 22px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+.counting-sec{
+    padding: 40px 0px;
+    width: 100%;
+}
+.inner-width{
+    max-width: 1270px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col1{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.col1 i{
+    font-size: 40px;
+    color: #3498db;
+}
+.countup{
+    font-size: 45px;
+    color: rgb(253, 202, 33);
+    margin: 40px 0;    
+}
+.col1 h3{
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+@media screen and (max-width:600px){
+    .middle{
+        width: 100%;
+        height: auto;
+    }
 }

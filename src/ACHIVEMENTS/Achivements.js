@@ -1,27 +1,45 @@
 import React from 'react'
 import './Achivements.css';
-import { useCountUp } from 'react-countup';
-import Header from '../Header/Header';
+import CountUp from 'react-countup';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { } from '@fortawesome/free-brands-svg-icons'
+import { faSmileWink, faPlaneDeparture, faTree, faTaxi } from '@fortawesome/free-solid-svg-icons';
 
 const Achivements = () => {
-  const { countUp, start, pauseResume, reset, update } = useCountUp({
-    start: 0,
-    end: 1234567,
-    delay: 1000,
-    duration: 5,
-    onReset: () => console.log('Resetted!'),
-    onUpdate: () => console.log('Updated!'),
-    onPauseResume: () => console.log('Paused or resumed!'),
-    onStart: ({ pauseResume }) => console.log(pauseResume),
-    onEnd: ({ pauseResume }) => console.log(pauseResume),
-  });
+
   return (
     <div>
-      <div>{countUp}</div>
-      <button onClick={start}>Start</button>
-      <button onClick={reset}>Reset</button>
-      <button onClick={pauseResume}>Pause/Resume</button>
-      <button onClick={() => update(2000)}>Update to 2000</button>
+      <div className='middle'>
+        <h1>Our Achivements</h1>
+        <p>Happiness is that state of consciousness which proceeds from the achievement of one's values...!</p>
+        <div className='counting-sec'>
+          <div className='inner-width'>
+            <div className='col1'>
+              <i><FontAwesomeIcon icon={faTree} /></i>
+              <div><CountUp start={0} end={125} duration={10} className='countup' /></div>
+              <h3>DESTINATIONS</h3>
+            </div>
+
+            <div className='col1'>
+              <i><FontAwesomeIcon icon={faSmileWink} /></i>
+              <div><CountUp start={0} end={4215} duration={5} className='countup' /></div>
+              <h3>CUSTOMERS</h3>
+            </div>
+
+            <div className='col1'>
+              <i><FontAwesomeIcon icon={faPlaneDeparture} /></i>
+              <div><CountUp start={0} end={215} duration={5} className='countup' /></div>
+              <h3>TOURS</h3>
+            </div>
+
+            <div className='col1'>
+              <i><FontAwesomeIcon icon={faTaxi} /></i>
+              <div><CountUp start={0} end={17} duration={5} className='countup' /></div>
+              <h3>TOUR TYPES</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
