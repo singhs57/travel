@@ -32,23 +32,29 @@ body{
     height: 30px;
 }
 .gallery-container .navigation .navi{
-    border: 1px solid rgb(0, 255, 242);
+    border: 1px solid rgb(0, 85, 100);
     padding: 10px 20px;
     border-radius: 50px;
     width: 150px;
     margin: 0px 5px; 
     font-family: monospace; 
     font-size: 16px;
+    font-weight: bold;
 }
 .gallery-container .navigation .navi.active{
-    background-color: rgba(27, 181, 252, 0.808);
+    background-color: rgba(0, 166, 243, 0.904);
     border-color: white;
 }
 .gallery-container .navigation .navi:hover{
     background-color: rgba(27, 181, 252, 0.808);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: 0.5s;
 }
 .gallery-container .navigation .navi.active:hover{
     background-color: white;
+    color: #3498db;
+    border: 1px solid #3498db;
 }
 .gallery-container .ImageContainer{
     width: fit-content;
@@ -62,9 +68,10 @@ body{
     margin: 5px 3px auto;
     width: 200px;
     height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 5px rgba(13, 13, 14, 0.801);
 }
-
-
 @media screen and (max-width:600px){
     .gallery-container{
         width: 100%;
