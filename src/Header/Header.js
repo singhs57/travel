@@ -48,10 +48,11 @@ const Header = (props) => {
 
                     <li><Link to="/" exact className='active'> Home</Link></li>
                     <li> <Link to="/About"> About</Link></li>
-                    <li><Link to="/Contact">Contact</Link></li>
                     <li><Link to="/Gallery"> Gallery</Link></li>
                     <li><Link to="/Achivements"> Achivements</Link></li>
-     <li><Link to="/Contact"> Event</Link></li>
+                    <li><Link to="/Contact"> Event</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li>
+                    
                 </ul>
             </nav>
 

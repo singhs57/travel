@@ -47,8 +47,7 @@ class Carddetails extends React.Component{
                 </div>
                 <div className='column'>
             <Card className='card'>            
-                    <CardMedia className='header2'
-                    title='Labrador Puppies'>
+                    <CardMedia className='header2'>
                     </CardMedia>
                     <CardContent>
                         <h3>Luxury Hotels</h3>
@@ -71,8 +70,7 @@ class Carddetails extends React.Component{
 
                    <div className='column'>
             <Card className='card'>            
-                    <CardMedia className='header3'
-                    title='Labrador Puppies'>
+                    <CardMedia className='header3'>
                     </CardMedia>
                     <CardContent>
                         <h3>Beautiful Resort</h3>
@@ -95,8 +93,7 @@ class Carddetails extends React.Component{
 
                    <div className='column'>
             <Card className='card'>            
-                    <CardMedia className='header4'
-                    title='Labrador Puppies'>
+                    <CardMedia className='header4'>
                     </CardMedia>
                     <CardContent>
                         <h3>Massage Parlour</h3>
