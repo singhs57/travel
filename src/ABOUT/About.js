@@ -12,6 +12,7 @@ render(){
         <div className='About-imag'>
         </div>
         <Ourteam/>
+        
         </div>
     )
 }

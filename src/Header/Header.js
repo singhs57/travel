@@ -26,8 +26,7 @@ const Header = (props) => {
             <nav className='header'>
                 <div className='social'>
                     <ul>
-                        <div className='mylogo'>TRAVELS4U
-            <div className='toggle-nav'>&#9776;</div>
+                        <div className='mylogo'>TRAVELS4U<div className='toggle-nav'>&#9776;</div>
                         </div>
 
                         <li><Link to='/About'><FontAwesomeIcon icon={faFacebook} title='Facebook' /></Link></li>

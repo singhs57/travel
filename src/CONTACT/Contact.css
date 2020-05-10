@@ -35,7 +35,7 @@
 }
 .conatact-fom{
     display: grid;
-    grid-template-columns: 357px 500px;
+    grid-template-columns: 400px 500px;
 }
 .conatact-fom i{
     font-size: 22px;

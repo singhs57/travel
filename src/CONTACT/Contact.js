@@ -16,8 +16,8 @@ render(){
         <h1>Contact Us</h1>
         <p>Email us and keep upto date with our latest news</p>
         <div className='conatact-fom'>
-        <div>
-        <i><FontAwesomeIcon icon={faMapMarker}/></i> <span className='con-info'>70 Telco Jamshedpur India,831016</span> <br/>
+            <div>
+        <i><FontAwesomeIcon icon={faMapMarker}/></i> <span className='con-info'>70 Telco Jamshedpur India, 831016</span> <br/>
         <i><FontAwesomeIcon icon={faPhoneAlt}/></i> <span className='con-info'>Phone no +91 8092290510</span> <br/>
         <i><FontAwesomeIcon icon={faEnvelopeSquare}/></i> <span className='con-info'>57shubhamkrsingh@gmail.com</span> <br/>
         </div>

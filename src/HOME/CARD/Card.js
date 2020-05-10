@@ -3,6 +3,7 @@ import './Card.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitterSquare, faFacebook,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import Header from '../../Header/Header';
+import Footer from '../../FOOTER/Footer';
 
 
 
@@ -70,7 +71,8 @@ function Card(){
         <button type='submit' className='submit-btn'>Register</button>
         </form>
 
-        </div>        
+        </div> 
+        <Footer/>       
     </div>
    );
 
