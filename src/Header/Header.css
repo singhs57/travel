@@ -6,7 +6,7 @@ body {
   }
   .header{
     max-width: 1270px;
-    background: rgba(95, 92, 92, 0.616);
+   
     overflow: auto;
     margin: 12px 0 auto;
     margin-left: 55px;
@@ -55,7 +55,7 @@ body {
   }
   .header ul li a.active{
     background: rgba(2, 204, 255, 0.726);
-    color: #fff;
+    color: rgb(255, 255, 255);
     transition: 1.0s;
   }
   .header ul li a:hover{
